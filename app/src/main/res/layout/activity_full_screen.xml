@@ -25,12 +25,32 @@
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:layout_width="wrap_content"
-        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
         app:cornerRadius="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
         android:layout_height="wrap_content">
 
     </com.google.android.material.button.MaterialButton>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/DownloadWalpaper"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/_13sdp"
+        android:text="Download Walaper"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/carbon_red_500"
+        android:layout_marginLeft="@dimen/_10sdp"
+        app:cornerRadius="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.button.MaterialButton>
+
+
 
 
 </RelativeLayout>
